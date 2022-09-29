@@ -477,6 +477,9 @@ ul {
     background-color: #eaf3fc;
     padding: 0;
 }
+.pet-video-section{
+    background-color: #eaf3fc;
+ } 
 .pet-video{
     width: 100%;
     max-height: calc(100vh - 200px);
