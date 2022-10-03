@@ -789,13 +789,16 @@ section {
     background-color: #89cc90;
     padding: 5px 10px;
     border-radius: 20px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     position: absolute;
     top: 1rem;
     right: 1rem;
     white-space: nowrap;
     /* margin: 0 0 0px 150px; */
+}
+.ml-0.login-btn{
+    margin-left: 0 !important;
 }
 
 .doctors-available-main .main-doct-box .doct-text p {
@@ -859,8 +862,19 @@ section {
     display: inline-block;
     font-weight: 500;
     box-shadow: 0px 2px 5px 2px #bbbbbb4f;
+    
+}
+.login-btn,.signup-btn.contact-btn a {
+    transition: 0.5s all ease;
+}
+.login-btn:hover,.signup-btn:hover,.contact-btn a:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #0001;
 }
 
+#petVideoAutoPlay{
+    max-height: 80vh;
+}
 @media (max-width: 768px) {
     .doctors-available-main .main-doct-box {
         width: 345px;
@@ -895,11 +909,12 @@ section {
 }
 
 #What-Treat .treat-point-main {
-    padding: 6px 0 20px 0;
+    padding: 20px;
 }
 
 #What-Treat .treat-point-img {
     width: 25%;
+    margin-right: 1rem;
 }
 
 #What-Treat .treat-point-text h5 {
@@ -944,6 +959,7 @@ section {
     width: 320px;
     margin: 0 auto;
     padding-bottom: 20px px;
+    max-width: 100%;
 }
 
 .carousel .carousel-item {
@@ -974,7 +990,25 @@ section {
 }
 
 .carousel .testimonial {
-    padding: 30px 0 10px;
+    padding: 20px 0 10px;
+    position: relative;
+    text-shadow: none;
+}
+.carousel .testimonial::before,.carousel .testimonial::after{
+    font-size: 4rem;
+    line-height: 1;
+    position: absolute;
+    opacity: 0.2;
+}
+.carousel .testimonial::before{
+    content: '\201C';
+    left: 0;
+    top: 0;
+}
+.carousel .testimonial::after{
+    content: '\201D';
+    right: 0;
+    bottom: -2rem;
 }
 
 .carousel .overview {
@@ -1026,8 +1060,8 @@ section {
 
 .carousel-indicators li,
 .carousel-indicators li.active {
-    width: 11px;
-    height: 11px;
+    width: 8px;
+    height: 8px;
     margin: 1px 5px;
     border-radius: 50%;
 }
