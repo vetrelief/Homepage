@@ -878,6 +878,9 @@ section {
     max-height: 80vh;
 }
 @media (max-width: 768px) {
+    #hero3{
+        margin-top: 150px;
+    }
     .doctors-available-main .main-doct-box {
         width: 345px;
         max-width: 100%;
