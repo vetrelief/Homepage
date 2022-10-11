@@ -502,7 +502,7 @@ ul {
     background-size: cover;
 }
 #carouselHeroSection .carousel-indicators li.active{
-    background-color: white;
+    background-color: #fff;
 }
 .animate-image{
     max-width: 300px;
