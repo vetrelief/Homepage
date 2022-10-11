@@ -484,15 +484,22 @@ ul {
     width: 100%;
     max-height: calc(100vh - 200px);
 }
-#hero3{
+#hero3,#hero3-1{
     /* width: 100%;
     height: 90vh; */
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    margin: 7.5rem 0 0;
+    background-color: #eaf3fc;
+}
+#hero3{
     background: url(../img/Doggy_Heaven_banner.jpeg) center;
     background-size: cover;
-    background-repeat: no-repeat;
-    margin: 7.5rem 0 0;
-    background-position: center;
-    background-color: #eaf3fc;
+
+}
+#hero3-1{
+    background: url(../img/dog_paradise.jpeg) center;
+    background-size: cover;
 }
 .animate-image{
     max-width: 300px;
@@ -878,7 +885,7 @@ section {
     max-height: 80vh;
 }
 @media (max-width: 768px) {
-    #hero3{
+    #hero3,#hero3-1{
         margin-top: 150px;
     }
     .doctors-available-main .main-doct-box {
@@ -961,12 +968,11 @@ section {
 --------------------------------------------------------------*/
 
 .carousel {
-    width: 320px;
+    /* width: 320px; */
     margin: 0 auto;
-    padding-bottom: 20px px;
+    /* padding-bottom: 20px; */
     max-width: 100%;
 }
-
 .carousel .carousel-item {
     color: #999;
     font-size: 14px;
