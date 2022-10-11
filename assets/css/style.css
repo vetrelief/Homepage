@@ -501,6 +501,9 @@ ul {
     background: url(../img/dog_paradise.jpeg) center;
     background-size: cover;
 }
+#carouselHeroSection .carousel-indicators li.active{
+    background-color: white;
+}
 .animate-image{
     max-width: 300px;
     margin: 0 auto;
