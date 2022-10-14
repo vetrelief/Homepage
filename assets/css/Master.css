@@ -707,7 +707,7 @@ button.slick-arrow.slick-next {
 
 /* New CSS */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
 	body{
 		margin: 0 !important;
 		padding: 0 !important;
