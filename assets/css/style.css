@@ -1403,3 +1403,6 @@ section {
 .form-bottom-links p a{
     color: #0099cc;
 }
+.form-bottom-links p a:hover{
+    color: #eee;
+}
