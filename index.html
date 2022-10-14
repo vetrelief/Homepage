@@ -70,8 +70,9 @@
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>   
           </nav> 
-              <a href="#" class="login-btn scrollto"><span class="d-md-inline">Login</a>
-              <a href="#" class="signup-btn scrollto"><span class="d-md-inline">Sign up</a>
+              <a href="#" class="login-btn scrollto" data-toggle="modal" data-target="#loginModal"><span class="d-md-inline">Login</a>
+
+              <a href="register.html" class="signup-btn scrollto"><span class="d-md-inline">Sign up</a>
           <!-- navbar -->
       </div>
        
@@ -102,8 +103,8 @@
 
               <i class="bi bi-list mobile-nav-toggle"></i> 
 
-              <a href="#" class="login-btn scrollto"><span class="d-md-inline">Login</a>
-              <a href="#" class="signup-btn scrollto"><span class="d-md-inline">Sign up</a> 
+              <a href="#" class="login-btn scrollto" data-toggle="modal" data-target="#loginModal"><span class="d-md-inline">Login</a>
+              <a href="register.html" class="signup-btn scrollto"><span class="d-md-inline">Sign up</a> 
             </div>  
 
           </nav> 
@@ -498,6 +499,48 @@
     <script src="assets/js/video-play.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content custom-login-modal">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <img src="assets/img/close_pop.png" alt="">
+          </button>
+          <div class="modal-body">
+            <h6 class="text-center font-weight-bold text-white mb-3">
+              Please Login
+            </h6>
+            <form id="login" name="login" method="post" action="/pet_appointment/" onsubmit="return testXMLAuth1();">
+              <input type="hidden" name="LOGIN_FORM" value="">	  <fieldset class="textbox">
+                <div class="row">
+                  <div class="col-8 pr-0">
+                    <div class="logintext">
+                      <label class="username"> <span>Username</span>
+                      <input name="VET_AUTH_USER" type="text" id="loginP2" size="11" placeholder="Login">
+                      <label class="password"> <span>Password</span>
+                      <input name="VET_AUTH_PW" type="password" id="loginP" size="11" placeholder="Password">
+                    </div>
+                    
+                  </div>
+                  <div class="col-4 text-right">
+                    <div class="button" id="go">
+                      <input name="submit" type="image" src="assets/img/Go_Button.png" alt="submit" onclick="testXMLAuth()" width="50" height="50">
+                    </div>
+                  </div>
+                </div>
+                  <div class="form-bottom-links">
+                    <p><a class="forgot" href="https://vetrelief.com/reset.phtml">Forgot your password?</a></p>
+                  <p class="mb-0"><a class="forgot" href="https://vetrelief.com/register.phtml">New to VetRelief.com? Create an Account.</a></p>
+                  </div>
+              </fieldset>
+              
+                
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
     </body>
 
 <!-- Mirrored from test.vetrelief.com/virtual2/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Aug 2022 21:11:27 GMT -->

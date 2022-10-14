@@ -1344,3 +1344,62 @@ section {
     color: #ffffff;
     background-color: #89cc90;
 }
+
+/* Custom modal CSS */
+.custom-login-modal{
+    background-color: #004455 !important;
+    border: 2px solid #ddd;
+    box-shadow: 0px 0px 20px #999;
+    -webkit-box-shadow: 0px 0px 20px #999;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 14px;
+    position: relative;
+}
+.custom-login-modal .close{
+    position: absolute;
+    right: -1.75rem;
+    top: -1.75rem;
+    opacity: 1;
+}
+.custom-login-modal input[type='text'],.custom-login-modal input[type='password']{
+    padding: 2px 5px;
+    border-radius: 4px;
+    border:1px solid #0001;
+    font-size: 12px;
+    margin-bottom: 0.25rem;
+    width: 100%;
+}
+.custom-login-modal label{
+    margin-right: 10px;
+    color: #ddd;
+    width: 100%;
+}
+#go {
+    width: 50px;
+    margin-top: 1.5rem;
+}
+.custom-login-modal .button{
+    padding: 6px 6px 4px;
+    margin-top: 10px;
+    width: 220px;
+    background: -moz-linear-gradient(center top, #f3f3f3, #dddddd);
+    background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#dddddd));
+    background: -o-linear-gradient(top, #f3f3f3, #dddddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f3f3f3', EndColorStr='#dddddd');
+    border-color: #000;
+    border-width: 1px;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+}
+.form-bottom-links p{
+    font-size: 11px;
+    margin-bottom: 0.5rem;
+}
+.form-bottom-links p a{
+    color: #0099cc;
+}
