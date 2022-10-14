@@ -705,6 +705,47 @@ button.slick-arrow.slick-next {
 	
 	}
 
+/* New CSS */
+
+@media screen and (max-width:768px) {
+	body{
+		margin: 0 !important;
+		padding: 0 !important;
+		background-color: transparent !important;
+	}
+    .GenLayout #container{
+        width: 100% !important;
+        max-width: 100% !important;
+       
+    }
+    .GenLayout #mainContent{
+        width: 100% !important;
+        max-width: 100% !important;
+       
+    }
+    #mainContent{
+        min-width: unset !important;
+    }
+    .section3_centerpart{
+        width: 90%;
+    }
+    #myForm label{
+        max-width: 100% !important;
+    }
+    .GenLayout #container{
+        width: 100% !important;
+        height: unset !important;
+    }
+
+    .GenLayout #SideBar{
+        width: unset !important;
+        max-width: 100%;
+    }
+	.GenLayout #SideBar img{
+		width: 30%!important;
+	}
+}
+
 
 
 
