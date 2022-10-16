@@ -789,6 +789,9 @@ section {
     position: relative;
     background-size: cover;
 }
+.main-doct-box{
+    cursor: pointer;
+}
 
 .doctors-available-main .main-doct-box .doct-text h4 {
     font-size: px;
