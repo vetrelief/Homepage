@@ -188,6 +188,9 @@ ul {
     background: #329EFF!important;
     color: #ffffff !important;
 }
+.blue-heading{
+    color: #329eff;
+}
 
 @media (max-width: 768px) {
     .login-btn,
