@@ -498,10 +498,9 @@ ul {
 #hero3{
     background: url(../img/doggy_heaven_full.jpeg) center;
     background-size: cover;
-
 }
 #hero3-1{
-    background: url(../img/cat-heaven.jpg) center;
+    background: url(../img/cat-heaven-1.jpg) center;
     background-size: cover;
 }
 #carouselHeroSection .carousel-indicators li.active{
@@ -592,6 +591,9 @@ ul {
     #hero,
     #hero1 {
         background-attachment: fixed;
+    }
+    #hero3,#hero3-1{
+        aspect-ratio: 	1890/787;
     }
 }
 
