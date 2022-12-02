@@ -981,7 +981,9 @@ section {
     display: flex;
     justify-content: center;
 }
-
+.login-btn.scrollto.text-yellow{
+    color: #e7ed20 !important;
+}
 
 /*--------------------------------------------------------------
 # Put Reviews From Pet Owners
