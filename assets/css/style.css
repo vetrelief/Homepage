@@ -487,7 +487,7 @@ ul {
     width: 100%;
     max-height: calc(100vh - 200px);
 }
-#hero3,#hero3-1,#hero3-2{
+#hero3,#hero3-1,#hero3-2,#hero3-3{
     /* width: 100%;
     height: 90vh; */
     background-size: cover;
@@ -505,6 +505,10 @@ ul {
 }
 #hero3-2{
     background: url(../img/jungle.jpg) center;
+    background-size: cover;
+}
+#hero3-3{
+    background: url(../img/farmanimals-banner.png) center;
     background-size: cover;
 }
 #carouselHeroSection .carousel-indicators li.active{
@@ -596,7 +600,7 @@ ul {
     #hero1 {
         background-attachment: fixed;
     }
-    #hero3,#hero3-1,#hero3-2{
+    #hero3,#hero3-1,#hero3-2,#hero3-3{
         aspect-ratio: 	1890/787;
     }
 }
@@ -900,7 +904,7 @@ section {
     max-height: 80vh;
 }
 @media (max-width: 768px) {
-    #hero3,#hero3-1,#hero3-2{
+    #hero3,#hero3-1,#hero3-2,#hero3-3{
         margin-top: 150px;
     }
     .doctors-available-main .main-doct-box {
